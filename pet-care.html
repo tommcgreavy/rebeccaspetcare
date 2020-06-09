@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pet Care | Rebeccas Pet Care</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Rebeccas Pet Care</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="dog-walking.html">Dog Walking</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cat-feeding.html">Cat Feeding</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="pet-care.html">Pet Care <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <a class="facebook" href="facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid mx-auto" id="petPageContent">
+        <div id="petPageText">
+        <h1 id="petPageTitle"><strong>Pet Visits</strong></h1><br>
+        <h5 class="text-secondary">Available 7 days a week</h5><br>
+        <p class="text-muted">Dogs, Cats, Rabbits, Guinea Pigs, Hamsters, Fish, Birds, Snakes, Lizards and more! </p>
+        <p class="text-muted">Prices starting from £8</p><br>
+        <p>Visits include feeding, refreshing water, letting out/locking in, tray cleaning, cuddles and attention.<br>Available mornings, late afternoon and evenings.</p><br>
+        <p>Please get in touch if you have any questions or want to arrange a visit.</p><br>
+        <h5>Contact me about your pet:</h5><br>
+        <form action="cat-message.php" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                <input type="text" class="form-control" id="number" name="number" placeholder="Number">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                <input type="text" class="form-control" id="breed" name="breed" placeholder="Type of Animal">
+                <textarea rows= "5" class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                <br>
+                <button type="submit" name="submit" class="btn btn-dark">Send</button>
+            </div>
+        </form>
+        <p class="text-muted">Please note - A visit is required before making a booking so I can get to know your animal and its needs</p>
+        </div>
+        <div id="petPagePicture">
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white">
+        <div class="container" id="footer">
+            <div class="mr-auto" id="leftFooter">
+                <h6><strong>Contact me:</strong></h6><br>
+                <p>Tel: 07835 148943<br><br>Email: <a href="MAILTO:rebeccaspertcare@outlook.com">rebeccaspetcare@outlook.com</a><br><br>Calella,<br>Brent Road, East Brent,<br>Highbridge, Somerset,<br>TA9 4JD</p>
+            </div>
+            <div class="ml-auto" id="rightFooter">
+                <h6><strong>Opening hours for enquiries:</strong></h6><br>
+                <p>Mon - Sat:  9am - 6pm</p>
+            </div>
+        </div>
+    </div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

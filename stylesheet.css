@@ -1,0 +1,229 @@
+body {
+	background-color: #89daf5;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*	navbar  */
+.navbar {
+	height: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #89daf5;
+}
+
+.navbar a {
+	color: #eb75cb!important;
+}
+
+.navbar a:hover {
+	color: #000000!important;
+}
+
+.facebook {
+	margin-left: 2.5%;
+}
+
+/*	landing box  */
+#landingBox {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	max-width: 80%;
+	margin-top: 3%;
+	height: 70vh;
+}
+
+#landingBoxPicture {
+	grid-column: 1;
+	grid-row: 1;
+	padding: 0;
+	background-image: url('homeCat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+
+#landingBoxText {
+	grid-column: 2;
+	grid-row: 1;
+	padding: 8%;
+	padding-top: 10%;
+	background-color: #ffffff;
+}
+
+#landingTitle {
+	font-weight: lighter;
+}
+
+
+/*	contact  */
+#contact {
+	padding: 5%;
+}
+
+#contact .form-group {
+	width: 50%;
+}
+
+#contact input {
+	margin-bottom: 3%;
+}
+
+#contact a {
+	color: black; 
+	text-decoration: none;
+}
+
+
+
+
+
+/*	footer   */
+#footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	padding: 2%;
+}
+
+#leftFooter {
+	grid-row: 1;
+	grid-column: 1;
+}
+
+#leftFooter a {
+	color: black; 
+	text-decoration: none;
+}
+
+#rightFooter {
+	grid-row: 1;
+	grid-column: 2;
+}
+
+
+/* Dog walking page  */
+#dogPageContent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	max-width: 80%;
+	margin-top: 1%;
+	margin-bottom: 6%;
+}
+
+#dogPagePicture {
+	grid-column: 2;
+	grid-row: 1;
+	padding: 0;
+	background-image: url('dog.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+
+#dogPageText {
+	grid-column: 1;
+	grid-row: 1;
+	padding: 8%;
+	padding-top: 10%;
+	background-color: #ffffff;
+}
+
+#dogPageTitle {
+	font-weight: lighter;
+}
+
+#dogPageContent input {
+	margin-bottom: 3%;
+}
+
+
+/* Cat feeding page  */
+#catPageContent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	max-width: 80%;
+	margin-top: 1%;
+	margin-bottom: 6%;
+}
+
+#catPagePicture {
+	grid-column: 2;
+	grid-row: 1;
+	padding: 0;
+	background-image: url('cat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+
+#catPageText {
+	grid-column: 1;
+	grid-row: 1;
+	padding: 8%;
+	padding-top: 10%;
+	background-color: #ffffff;
+}
+
+#catPageTitle {
+	font-weight: lighter;
+}
+
+#catPageContent input {
+	margin-bottom: 3%;
+}
+
+
+
+/* Pet care page  */
+#petPageContent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+	max-width: 80%;
+	margin-top: 1%;
+	margin-bottom: 6%;
+}
+
+#petPagePicture {
+	grid-column: 2;
+	grid-row: 1;
+	padding: 0;
+	background-image: url('rabbit.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover; 
+}
+
+#petPageText {
+	grid-column: 1;
+	grid-row: 1;
+	padding: 8%;
+	padding-top: 10%;
+	background-color: #ffffff;
+}
+
+#petPageTitle {
+	font-weight: lighter;
+}
+
+#petPageContent input {
+	margin-bottom: 3%;
+}
+
